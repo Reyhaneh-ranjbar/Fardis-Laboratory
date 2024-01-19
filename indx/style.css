@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(171, 212, 199);
+    font-family: vazir;
+}
+#header{
+    color: blue;
+    font-size: smaller;
+    font-family: vazir;
+
+}
+
+#para{
+    color: rgb(30, 114, 114);
+    border-color: aquamarine;
+    font-style: italic;
+    font-family: vazir;
+}
+
+.imgs{
+
+    width: 30%;
+    clear: none;
+}
+
+*{
+
+    box-sizing: border-box;
+}
+.now{
+    display: flex;
+}
+
+/*Create three equal columns that sits next to each other */
+
+.imgs{
+
+    flex: 33.33%;
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #6aba68;
+}
+table tr:nth-child(odd) {
+   background-color:#b0e9e7;
+}
+table th {
+    background-color: black;
+    color: white;
+}
